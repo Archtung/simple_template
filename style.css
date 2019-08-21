@@ -1,0 +1,256 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.main-header {
+    width: 100%;
+    background-color: #445162;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.main-header:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.main-header-wrapper {
+    float: left;
+}
+
+.main-header-title {
+    display: block;
+    height: 44px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 400;
+    margin: 0 0 49px 0;
+}
+
+.main-header-list {
+    list-style-type: none;
+    min-width: 458px;
+    min-height: 129px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+.main-header-list li {
+    position: relative;
+    padding: 0 0 0 36px;
+}
+
+.main-header-list li:before {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 19px;
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    background-image: url('img/check_icon.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-header-img {
+    display: block;
+    width: 469px;
+    height: 214px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    float: right;
+}
+
+.about-product {
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.about-product:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.about-product-article {
+    float: left;
+}
+
+.about-product-article p {
+    width: 659px;
+    min-height: 63px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 20px 0 20px 0;
+}
+
+.about-product-title {
+    display: block;
+    width: 254px;
+    height: 28px;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    margin: 0 0 30px 0;
+}
+
+.about-product-video {
+    display: block;
+    float: right;
+    width: 430px;
+    height: 245px;
+    background-color: #445161;
+}
+
+.dignity-and-pluses {
+    width: 100%;
+    padding: 50px;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+}
+
+.dignity-and-pluses:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.dignity-and-pluses-title {
+    display: block;
+    text-align: center;
+    margin: 0 0 29px 0;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+}
+
+.dignity-and-pluses-list {
+    list-style-type: none;
+    width: 540px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333333;
+    float: left;
+    margin: 0;
+    padding: 0 0 0 41px;
+}
+
+.dignity-and-pluses-list:nth-child(3) {
+    float: right;
+}
+
+.dignity-and-pluses-list-item {
+    margin: 0 0 35px 0;
+    position: relative;
+}
+
+.dignity-and-pluses-list:nth-child(2)>.dignity-and-pluses-list-item:nth-child(3),
+.dignity-and-pluses-list:nth-child(3)>.dignity-and-pluses-list-item:nth-child(3) {
+    margin: 0;
+}
+
+.dignity-and-pluses-list-item:before {
+    content: "+";
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-color: #445161;
+    color: white;
+    font-size: 38px;
+    text-align: center;
+    line-height: 32px;
+    position: absolute;
+    top: 5px;
+    left: -41px;
+}
+
+.screenshots {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.screenshots:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.screenshots-title {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+    text-align: center;
+    margin: 0 0 34px 0;
+}
+
+.screenshots-figures {
+    float: left;
+    width: 580px;
+    margin: 0 0 30px 0;
+}
+
+.screenshots-figures:nth-child(4),
+.screenshots-figures:nth-child(5) {
+    margin: 0;
+}
+.screenshots-figures:nth-child(2),
+.screenshots-figures:nth-child(4) {
+    margin-right:16px ;
+}
+
+.screenshots-figures-img {
+    width: 200px;
+    height: 150px;
+    background-color: #445161;
+    margin: 10px 0 0 0;
+    float: left;
+}
+
+.screenshots-figures-description {
+    float: right;
+}
+
+.screenshots-figures-title {
+    width: 310px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #445161;
+    margin: 0;
+}
+
+.screenshots-figures-text {
+    width: 360px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333333;
+    margin: 12px 0 0 0;
+}
