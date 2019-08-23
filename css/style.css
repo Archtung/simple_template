@@ -226,6 +226,7 @@ body {
 }
 
 .screenshots-figures-img {
+    display: block;
     width: 200px;
     height: 150px;
     background-color: #445161;
