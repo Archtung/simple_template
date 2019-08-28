@@ -62,7 +62,7 @@ body {
     position: absolute;
     top: 8px;
     left: 0px;
-    background-image: url('img/check_icon.png');
+    background-image: url('../img/check_icon.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -220,9 +220,10 @@ body {
 .screenshots-figures:nth-child(5) {
     margin: 0;
 }
+
 .screenshots-figures:nth-child(2),
 .screenshots-figures:nth-child(4) {
-    margin-right:16px ;
+    margin-right: 16px;
 }
 
 .screenshots-figures-img {
@@ -254,4 +255,358 @@ body {
     font-weight: 400;
     color: #333333;
     margin: 12px 0 0 0;
+}
+
+.reviews {
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.reviews:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.reviews-title {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+    text-align: center;
+    margin: 0 0 35px 0;
+}
+
+.reviews-comments {
+    float: left;
+    width: 565px;
+    margin: 0 0 24px 0;
+}
+
+.reviews-comments:nth-child(4),
+.reviews-comments:nth-child(5) {
+    margin-bottom: 0px;
+}
+
+.reviews-comments:nth-child(3),
+.reviews-comments:nth-child(5) {
+    float: right;
+}
+
+.reviews-comments-avatar {
+    float: left;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #445162;
+}
+
+.reviews-comments-text {
+    float: right;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+}
+
+.reviews-comments-text:before {
+    content: '';
+    position: absolute;
+    right: 456px;
+    top: 26px;
+    border: 14px solid transparent;
+    border-right: 14px solid #e6e6e6;
+}
+
+.reviews-comments-text-p {
+    margin: 0;
+    width: 436px;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    font-style: italic;
+    color: #333333;
+}
+
+.reviews-comments-username {
+    display: block;
+    margin: 15px 0 2px 0;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #989898;
+}
+
+.buy-it-now {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.buy-it-now:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.buy-it-now-title {
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+    margin: 0 0 29px 0;
+}
+
+.buy-it-now-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.buy-it-now-card {
+    background-color: #445161;
+    width: 300px;
+    min-height: 200px;
+    padding: 17px 0 20px 0;
+    border-radius: 6px;
+}
+
+.buy-it-now-card.premium {
+    margin: 0 45px 0 45px;
+}
+
+.buy-it-now-card-name {
+    display: block;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 10px 0;
+}
+
+.buy-it-now-card-price {
+    display: block;
+    border: 2px solid #445161;
+    padding: 18px 0 18px 0;
+    text-align: center;
+    font-size: 40px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #445162;
+    background-color: #fff;
+}
+
+.buy-it-now-card-list {
+    margin: 19px 0 20px 20px;
+    padding: 0;
+    list-style-position: inside;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.buy-it-now-btn {
+    width: 260px;
+    display: block;
+    padding: 14px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid transparent;
+}
+
+.buy-it-now-btn-txt {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #445161;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.buy-it-now-btn:hover {
+    background-color: #445161;
+    border: 1px solid #fff;
+}
+
+.buy-it-now-btn:hover .buy-it-now-btn-txt {
+    color: #fff;
+}
+
+.main-footer {
+    width: 100%;
+    background-color: #445162;
+    padding: 50px 0 0 0;
+    box-sizing: border-box;
+}
+
+.contacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #445161;
+    padding: 0 0 50px 0;
+}
+
+.contacts-title {
+    display: block;
+    width: 100%;
+    margin: 0 0 30px 0;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+.contacts-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 500px;
+    margin: 0 46px 0 0;
+}
+
+.contacts-form input[type="text"],
+.contacts-form input[type="email"],
+.contacts-form textarea {
+    width: 100%;
+    height: 40px;
+    margin: 0 0 20px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 6px;
+    background-color: #ffffff;
+    outline: none;
+    text-transform: capitalize;
+}
+
+.contacts-form textarea {
+    width: 500px;
+    height: 170px;
+    resize: none;
+}
+
+input[placeholder],
+textarea[placeholder] {
+    text-overflow: ellipsis;
+    font-family: Arial;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.contacts-form input[type="submit"] {
+    border-radius: 6px;
+    background-color: #ffffff;
+    width: 140px;
+    height: 40px;
+    text-transform: uppercase;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+
+.contacts-form input[type="submit"]:hover {
+    background-color: #a6a6a6;
+}
+
+
+
+.contacts-socials-txt {
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    position: relative;
+    margin: 0 0 29px 0;
+    padding: 0 0 0 25px;
+}
+
+.contacts-socials-txt:before {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 19px;
+    position: absolute;
+    top: 0px;
+    left: -3px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.skype:before {
+    background-image: url('../img/skype_icon.png');
+    width: 24px;
+    height: 26px;
+}
+
+.icq:before {
+    background-image: url('../img/icq_icon.png');
+    width: 26px;
+    height: 26px;
+}
+
+.e-mail:before {
+    background-image: url('../img/email_icon.png');
+    width: 23px;
+    height: 23px;
+}
+
+.phone:before {
+    background-image: url('../img/phone_icon.png');
+    width: 24px;
+    height: 23px;
+}
+
+.socials-icons {
+    display: block;
+    letter-spacing: 0.15em;
+}
+
+.fa {
+    background-color: #fff;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    border-radius: 50%;
+    color: #445162;
+    font-size: 24px;
+}
+.fa:hover{
+    background-color: #445162;
+    color: #fff;
+}
+.copyright {
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    background-color: #f5f5f5;
+    color: #445162;
+    padding: 5px 0 5px 0;
 }
